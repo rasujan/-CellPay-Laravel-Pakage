@@ -1,7 +1,7 @@
 {
     "name": "rasujan/cellpaypayment",
     "description": "A package for cellpay payment gateway",
-    "type": "composer-plugin",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
