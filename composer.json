@@ -15,5 +15,13 @@
         "psr-4": {
             "Rasujan\\CellpayPayment\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rasujan\\CellpayPayment\\CellPayPaymentServiceProvider"
+            ]
+        },
+        "class": "Rasujan\\CellPayment"
     }
 }
