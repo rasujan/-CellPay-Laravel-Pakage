@@ -24,6 +24,6 @@
                 "Rasujan\\CellpayPayment\\CellPayPaymentServiceProvider"
             ]
         },
-        "class": "Rasujan\\CellpayPayment::CellpayPaymentServiceProvider"
+        "class": "Rasujan\\CellpayPayment"
     }
 }
