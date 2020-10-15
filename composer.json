@@ -1,0 +1,19 @@
+{
+    "name": "rasujan/cellpaypayment",
+    "description": "A package for cellpay payment gateway",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sujan Maharjan",
+            "email": "sujan.maharjan555@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Rasujan\\CellpayPayment\\": "src/"
+        }
+    }
+}
