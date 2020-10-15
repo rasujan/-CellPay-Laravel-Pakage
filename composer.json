@@ -10,7 +10,9 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "vendor/package": "dev-master#v1.0.4"
+    },
     "autoload": {
         "psr-4": {
             "Rasujan\\CellpayPayment\\": "src/"
