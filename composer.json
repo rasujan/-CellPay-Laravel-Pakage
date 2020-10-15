@@ -21,7 +21,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Rasujan\\CellpayPayment\\CellPayPaymentServiceProvider"
+                "Rasujan\\CellpayPayment\\CellpayPaymentServiceProvider"
             ]
         }
     }
