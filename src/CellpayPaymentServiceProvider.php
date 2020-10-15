@@ -13,6 +13,9 @@ class CellpayPaymentServiceProvider extends ServiceProvider
             __DIR__ . '/config/cellpaypayment.php',
             'cellpaypayment'
         );
+        $this->publishes([
+            __DIR__ . '/config/cellpaypayment.php' => config_path('cellpaypayment.php')
+        ]);
     }
     public function register()
     {
