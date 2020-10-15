@@ -21,6 +21,7 @@ class CellpayPaymentController extends Controller
     public function index()
     {
         return redirect('cellpaypayment::cellpaypayment');
+        
     }
 
     public function sendRequest()
