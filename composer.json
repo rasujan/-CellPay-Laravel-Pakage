@@ -11,7 +11,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "rasujan/cellpaypayment": "^1.0.6"
+        "rasujan/cellpaypayment": "dev-master#c97054b"
     },
     "autoload": {
         "psr-4": {
