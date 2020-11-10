@@ -13,6 +13,10 @@ class CellpayPaymentServiceProvider extends ServiceProvider
             __DIR__ . '/config/cellpaypayment.php',
             'cellpaypayment'
         );
+        $this->loadViewsFrom(
+            __DIR__ . '/views',
+            'cellpaypayment'
+        );
         $this->publishes([
             __DIR__ . '/config/cellpaypayment.php' => config_path('cellpaypayment.php')
         ]);
